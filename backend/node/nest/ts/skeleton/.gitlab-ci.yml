@@ -1,0 +1,13 @@
+include:
+  - project: cloud-platform/pipe-templates
+    ref: master
+    file: node-js-common.yml
+  - project: cloud-platform/pipe-templates
+    ref: master
+    file: kubernetes-deploy.yml
+  - project: cloud-platform/pipe-templates
+    ref: master
+    file: lamda-deploy.yml
+  - project: cloud-platform/pipe-templates
+    ref: master
+    file: security-dast.yml
