@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: MicroService
+  name: MicroService-2
   title: Node-Ts - Express-Nest Framework
   description: Node-TS Microservice includes qa, monitoring, security, iac
   tags:
