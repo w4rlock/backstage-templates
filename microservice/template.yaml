@@ -195,19 +195,18 @@ spec:
               - Kubernetes
           uniqueItems: true
           ui:widget: checkboxes
-
-          
+        
     - title: Choose a location
-          required:
-            - repoUrl
-          properties:
-            repoUrl:
-              title: Repository Location
-              type: string
-              ui:field: RepoUrlPicker
-              ui:options:
-                allowedHosts:
-                  - github.com
+      required:
+        - repoUrl
+      properties:
+        repoUrl:
+          title: Repository Location
+          type: string
+          ui:field: RepoUrlPicker
+          ui:options:
+            allowedHosts:
+              - github.com
   
   steps:
     - id: template
